@@ -1,5 +1,5 @@
 import unittest
-from read import match_groups
+from read import match_groups, _get_entire_spreadsheet
 
 class LogicTests(unittest.TestCase):
 
@@ -35,3 +35,6 @@ class LogicTests(unittest.TestCase):
                     'QLIKVIEW_GEO_EMEA',
                     'QLIKSENSE_ABM']
         self.assertEqual(sorted(expected), sorted(matched_groups))
+
+
+
