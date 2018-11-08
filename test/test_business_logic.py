@@ -5,7 +5,10 @@ class LogicTests(unittest.TestCase):
 
     def setUp(self):
 
-        self.sample_input_row = ['', 'x', '', '', '', 'x', '', 'x', '', '', '', 'x', '', '', '', '', '', '', '', '']
+        self.sample_input_row = ['', 'x', '', '', '',
+                                 'x', '', 'x', '', '',
+                                 '', 'x', '', '', '',
+                                 '', '', '', '', '']
 
         self.groups = ['QLIKSENSE_MARKETING_USERS',
         'QLIKSENSE_MARKETING_LOGINS',

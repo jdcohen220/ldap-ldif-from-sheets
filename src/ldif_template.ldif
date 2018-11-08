@@ -1,0 +1,3 @@
+dn: cn={group},ou=servicegroups,dc=redhat,dc=com
+changetype: modify
+add: uniquemember
