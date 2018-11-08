@@ -8,7 +8,6 @@ class LDIF:
         self.template_path = template_path
         self.template = self._read_template().format(group=group)
 
-
     def _read_template(self):
         with open(self.template_path, 'r') as f:
             template = f.read()
