@@ -38,6 +38,3 @@ class LogicTests(unittest.TestCase):
                     'QLIKVIEW_GEO_EMEA',
                     'QLIKSENSE_ABM']
         self.assertEqual(sorted(expected), sorted(matched_groups))
-
-
-
